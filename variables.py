@@ -113,3 +113,34 @@ print(b)
 
 
 
+
+# addition le float
+#affiche
+print(0.1 + 0.1 + 0.1)
+
+
+
+#affiche correctement 0.3
+print(Decimal("0.1") +Decimal("0.1") +Decimal("0.1"))
+
+import decimal
+from decimal
+
+
+
+#affiche  correctement 0.3
+
+
+
+
+
+
+
+
+
+
+#arrondi des floats
+decimal.getcontext().rounding = decimal.ROUND_HALF_UP
+Decimal("0.05").quantize(Decimal("1"))
+Decimal("0.15").quantize(Decimal("0.1"))
+
