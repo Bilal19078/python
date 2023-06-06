@@ -55,3 +55,61 @@ print(bool(number1))
 #float() convertit vers float
 #bool() convertit vert booléan
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#chaîne de caractères, string
+text4 = """<div>
+    <h1>Titre de premier niveau</h1>
+ </div>
+ """
+
+
+print(text4)
+
+
+# \n est équivalent à un saut de ligne
+# \t est équivalent à une tabulation
+
+ text5 = "<div>\n\t<h1>Titre de premier niveau</h1>\n</div>\n"
+
+ print (text5)
+
+# la backslash seul est le caractère d'échappement
+# \" est équivalent à une guillemet
+# \\ est équivalent à un back slash \
+
+# \" est équivalent à un saut de ligne
+text6 = "Foo \"Bar\" Baz"
+print(text6)
+
+text7 = "C:\\Program Files\\Foo"
+print(text7)
+
+#permutez les deux variables a et b en utilisant l'operateur d'affectation et le nom des variables.
+a =123
+b =42
+
+# pemutation des valeurs à l'aide d'une variable temporaire
+c = b
+b = a
+a = c
+
+
+print(a)
+print(b)
+
+
+
