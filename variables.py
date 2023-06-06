@@ -57,19 +57,6 @@ print(bool(number1))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #chaîne de caractères, string
 text4 = """<div>
     <h1>Titre de premier niveau</h1>

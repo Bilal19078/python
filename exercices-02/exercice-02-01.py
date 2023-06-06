@@ -13,7 +13,7 @@ answer = 42
 
 golden_ratio = 1.61
 
-fullname ="Salut Bilal b"
+fullname ="Salut Bilal B"
 love_python = True
 license_agreement = None
 
