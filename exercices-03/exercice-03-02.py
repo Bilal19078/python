@@ -11,10 +11,10 @@ candies = 15
 chocolates = 17
 friends = 3
 
-candies_rest = candies - friends
+candies_rest = 15 // 3
 print(candies_rest)
 
-chocolates_rest = chocolates - friends
+chocolates_rest = 17 // 3
 print(chocolates_rest)
 
 # réponse 3.2
