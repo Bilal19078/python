@@ -14,5 +14,8 @@ friends = 3
 candies_per_person = 15 / 3
 print(candies_per_person)
 
+chocolates_per_person = 17 / 3
+print(chocolates_per_person)
+
 # réponse 3.3
 
