@@ -19,5 +19,4 @@ print(meters)
 
 print(round(meters, 0 ))
 
-km = meters / miles
-print(km)
+km =
