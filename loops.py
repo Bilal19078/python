@@ -14,7 +14,6 @@ while False:
 #   print("ce message est affiché en boucle")
 # # break permet de sortir d'une boucle
 # break
-
 # # premier tirage
 dice = random.randint(1,6)
 
@@ -61,3 +60,25 @@ for i in range(1, 11):
     print(f"{accumulateur = }")
 
 print(f"{accumulateur = }")
+
+# liste 2D
+players = [
+    [42000, 46400, 32103],
+    [16700, 44667, 57987],
+]
+
+line = 0
+col = 0
+print(players[line][col])
+
+for line_index in range(0, len(players)):
+    line = players[line_index]
+
+    for col_index in range(0, len(line)):
+        score = line[col_index]
+
+        print(score)
+
+    print('foo')
+
+# previous dans une boucle
