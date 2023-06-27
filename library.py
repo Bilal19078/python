@@ -3,3 +3,5 @@ def oui_non(value):
         return 'oui'
     else:
         return 'non'
+
+        

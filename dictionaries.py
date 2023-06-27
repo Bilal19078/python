@@ -1,23 +1,24 @@
 fruits = {
-    'à' : 'ananas',
-    'b' : 'banane',
-    'c' : 'cerise',
+    'a': 'ananas',
+    'b': 'banane',
+    'c': 'cerise',
 }
 
 print(fruits)
 
-# accés en lecture
+# accès en lecture
 print(fruits['a'])
 fruit = fruits['a']
 
-# accés en écriture
+# accès en écriture
 fruits['a'] = 'abricot'
 
 print(fruits)
 
-# boucle foreach
-for fruit in fruits:
-    print(f"key = {fruit}")
+# boucle foreach pour obtenir les clés
+for key in fruits:
+    print(f"{key = }")
+    # fruits[key] contient la valeur associéeà la clé
     print(f"fruit = {fruits[key]}")
 
 # boucle foreach pour obtenir les clés et les valeurs en même temps
@@ -25,28 +26,32 @@ for key, value in fruits.items():
     print(f"{key = }")
     print(f"{value = }")
 
-# boucle foreach pour obtenir les valeurs en seulement
-for value in fruits.items():
+# boucle foreach pour obtenir les valeurs seulement
+for value in fruits.values():
     print(f"{value = }")
 
-# dictionaire avec clés de tout type
+# dictionnaire avec clés de tout type
 my_dict = {
     100: 'foo',
-    # si une même réapparait, elle ecrase la première
+    # si une même réapparaît, elle écrase la première
     100: 'bar',
+    # mais pas de souci pour avoir plusieurs fois la même valeur
+    101: 'bar',
     3.14: True,
     True: 'abc',
     None: 123,
 }
 
+print(my_dict)
+
 # ajouter une nouvelle entrée
 my_dict['baz'] = 1
 print(my_dict)
 
-# suprimer une entrée existante en gardant une copie
+# supprimer une entrée existante en gardant une copie
 a = my_dict.pop(101)
 print(my_dict)
 
-# suprimmer une entrée existante sans garder de copie
+# supprimer une entrée existante sans garder de copie
 del my_dict['baz']
 print(my_dict)
